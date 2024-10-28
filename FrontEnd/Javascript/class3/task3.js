@@ -1,6 +1,4 @@
 //Task-1:
-
-
 // let total_bill = 750;
 // if (total_bill > 500) {
 //   console.log("Discount Available");
