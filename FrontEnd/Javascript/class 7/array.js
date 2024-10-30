@@ -44,34 +44,61 @@
 // cities.unshift(newcity);
 // console.log(cities);
 
-let fruits=["apple","orange","strawberry"];
-let newArray=fruits.concat(["guava"]);
-console.log(newArray);
+// let fruits=["apple","orange","strawberry"];
+// let newArray=fruits.concat(["guava"]);
+// console.log(newArray);
 
-let student=["abc","cde","def","rfg"];
-let newStudent=student.includes("ASD");
-console.log(newStudent);
+// let student=["abc","cde","def","rfg"];
+// let newStudent=student.includes("ASD");
+// console.log(newStudent);
 
-let arr=["ant","camel","duck","elephant","tiger"];
-let newarr=arr.slice(2);
-console.log(newarr);
+// let arr=["ant","camel","duck","elephant","tiger"];
+// let newarr=arr.slice(2);
+// console.log(newarr);
  
-let newarr2=arr.slice(2,4);
-console.log(newarr2);
+// let newarr2=arr.slice(2,4);
+// console.log(newarr2);
 
-let months=["jan","feb","april","May"];
-months.splice(2,0,"march"); //her 1 is the index ,0 is no of deleted elements,march is val
-console.log(months);
-months.splice(2,1,"june");
-console.log(months);
+// let months=["jan","feb","april","May"];
+// months.splice(2,0,"march"); //her 1 is the index ,0 is no of deleted elements,march is val
+// console.log(months);
+// months.splice(2,1,"june");
+// console.log(months);
 
-let arr1=[1,2,3,4,5];
+// let arr1=[1,2,3,4,5];
 // for(let i=0;i<arr1.length;i++) {
 //    let arr2=arr1[i]*2;
 //    console.log(arr2);
 // }
 
 //for eachh
-arr1.forEach((e)=>{
-   console.log(e*2)
-})
+// arr1.forEach((e)=>{
+//    console.log(e*2)
+// })
+// arr1.forEach((e,i)=>{
+//    console.log(e,i)
+// });
+
+//Map()
+// let arr1=[1,2,3,4,5];
+// arr1.map((e,i)=>{
+//    console.log(e,i);
+// })
+// let arr2=["A","B","C","D"];
+//  const newarr=arr2.map((el,i)=>{
+//    console.log(el.toLowerCase());
+    
+//  });
+//  let arr2=["A","B","C","D"];
+//  const newarr=arr2.map((el,i)=>{
+//    return el.toLowerCase()
+//  });
+//  console.log(newarr);
+
+//Fiter()
+// let arr=[1,2,3,4,5];
+// const filteredarr=arr.filter((el)=>{
+//    return el%2!=0;
+// });
+// console.log(filteredarr);
+

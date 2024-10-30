@@ -1,4 +1,4 @@
-//push ()
+//push () method
 let array=["Sachin","Virat","Rohit","Hardhik","Rahul"];
 array.push("Rishabh");
 console.log(array);
