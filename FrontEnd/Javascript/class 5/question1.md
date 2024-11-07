@@ -20,7 +20,6 @@
 ## Exercise 3: Word Counter
 
 - In this exercise:
-
 - The user inputs a sentence.
 - We count the number of words in the sentence.
 

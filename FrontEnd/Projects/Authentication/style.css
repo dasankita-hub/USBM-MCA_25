@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    font-size: 25px;
+    font-family: "Honk", system-ui;
+    font-weight: 400;
+}
+.form{
+    margin-left: 5px;
+}
+nav ul{
+    display:flex;
+   justify-content: space-around;
+   background-color: rgba(118, 114, 114, 0.611);
+    font-weight: 500;
+    padding:5px 0px;
+}
+nav li{
+    list-style: none;
+}
+.signUpForm {
+    max-width: 400px;
+    border: 1px solid burlywood;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-left: 30px;
+  }
+  
+  .signUpForm input {
+    max-width: 300px;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 1.2rem;
+  }
+  .LoginForm {
+    max-width: 400px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-left: 30px;
+  }
+  
+  .LoginForm input {
+    max-width: 300px;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 1.2rem;
+  }
+#dashboard{
+  max-width: 450px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    padding: 20px 0;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-left: 35px;
+  }
+
+button{
+    max-width: 200px;
+    border-radius: 10%;
+    margin-left:60px;
+    font-size: 1rem;
+    padding:10px 0px;
+    background-color: transparent;
+}
+button:hover{
+    cursor:pointer;
+    background-color: darkolivegreen;
+    color:white;
+}

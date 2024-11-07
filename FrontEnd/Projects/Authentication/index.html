@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="style.css"/>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Honk&family=Inter:wght@100..900&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+</head>
+<body>
+       <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Log in</li>
+            </ul>
+        </nav>
+        <section id="signup">
+            <div class="signUpForm">
+              <h2>Sign Up Form</h2>
+              <label for="username">User Name</label>
+              <input type="text" name="username" id="username">
+              <br>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email">
+              <br>
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password">
+              <br>
+              <button id="signupbtn">Sign Up</button>
+            </div>
+          </section>
+          
+          <section id="login" style="display:none">
+            <div class="LoginForm">
+              <h2>Login Form</h2>
+              <label for="loginemail">User Email</label>
+              <input type="email" name="email" id="loginemail">
+              <br>
+              <label for="loginpassword">Password</label>
+              <input type="password" name="password" id="loginpassword">
+              <br>
+              <button id="loginbtn">Login</button>
+            </div>
+          </section>
+          
+          <section id="dashboard" style="display: none">
+            <h2 id="Displaymsg"></h2>
+            <button id="logoutbtn">Logout</button>
+          </section>
+          
+          <script src="index.js"></script>
+          
+</body>
+</html>
